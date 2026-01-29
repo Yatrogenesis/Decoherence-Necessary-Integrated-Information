@@ -1,0 +1,29 @@
+[package]
+name = "iit"
+version.workspace = true
+edition.workspace = true
+authors.workspace = true
+license.workspace = true
+repository.workspace = true
+description = "Integrated Information Theory (IIT) with rigorous mathematics for consciousness research"
+keywords = ["consciousness", "information-theory", "phi", "iit", "decoherence"]
+categories = ["science", "algorithms"]
+
+[dependencies]
+nalgebra = { workspace = true }
+ndarray = { workspace = true }
+num-complex = { workspace = true }
+rayon = { workspace = true }
+serde = { workspace = true }
+serde_json = { workspace = true }
+thiserror = { workspace = true }
+rand = { workspace = true }
+minilp = { workspace = true }
+
+[dev-dependencies]
+approx = { workspace = true }
+criterion = { workspace = true }
+
+[lib]
+name = "iit"
+path = "src/lib.rs"

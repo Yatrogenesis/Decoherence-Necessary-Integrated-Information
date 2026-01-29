@@ -1,0 +1,35 @@
+[package]
+name = "quantum-processor"
+version.workspace = true
+edition.workspace = true
+authors.workspace = true
+license.workspace = true
+repository.workspace = true
+description = "Quantum Reservoir Computing with rigorous Lindblad dynamics"
+keywords = ["quantum", "lindblad", "decoherence", "reservoir-computing", "consciousness"]
+categories = ["science", "simulation"]
+
+[dependencies]
+nalgebra = { workspace = true }
+ndarray = { workspace = true }
+num-complex = { workspace = true }
+rayon = { workspace = true }
+serde = { workspace = true }
+serde_json = { workspace = true }
+thiserror = { workspace = true }
+rand = { workspace = true }
+rand_distr = { workspace = true }
+log = { workspace = true }
+
+[dev-dependencies]
+approx = { workspace = true }
+criterion = { workspace = true }
+
+[features]
+default = ["lindblad"]
+lindblad = []
+reservoir = []
+
+[lib]
+name = "quantum_processor"
+path = "src/lib.rs"

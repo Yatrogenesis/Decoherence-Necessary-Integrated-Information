@@ -1,0 +1,70 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+  - family-names: "Molina-Burgos"
+    given-names: "Francisco"
+    email: "fmolina@avermex.com"
+    affiliation: "Avermex Research Division"
+    orcid: ""
+title: "Decoherence is Necessary for Integrated Information: Evidence from Quantum Reservoir Computing"
+version: 1.0.0
+date-released: 2026-01-29
+url: "https://github.com/Yatrogenesis/Noise-Consciousness-IIT"
+license: AGPL-3.0
+keywords:
+  - integrated information theory
+  - IIT
+  - quantum consciousness
+  - Lindblad dynamics
+  - decoherence
+  - phi
+  - consciousness
+abstract: >-
+  This repository contains the code and data supporting the discovery that
+  decoherence (noise) is necessary for integrated information (Φ > 0) in
+  quantum systems. We demonstrate using rigorous Lindblad master equation
+  dynamics that quantum systems in pure states have Φ = 0, while systems
+  coupled to a thermal bath exhibit Φ > 0 with an optimal noise level
+  exhibiting stochastic resonance behavior.
+references:
+  - type: article
+    authors:
+      - family-names: "Tononi"
+        given-names: "Giulio"
+      - family-names: "Boly"
+        given-names: "Melanie"
+      - family-names: "Massimini"
+        given-names: "Marcello"
+      - family-names: "Koch"
+        given-names: "Christof"
+    title: "Integrated information theory: from consciousness to its physical substrate"
+    journal: "Nature Reviews Neuroscience"
+    year: 2016
+    volume: 17
+    issue: 7
+    start: 450
+    end: 461
+  - type: article
+    authors:
+      - family-names: "Albantakis"
+        given-names: "Larissa"
+      - family-names: "Prentner"
+        given-names: "Robert"
+      - family-names: "Durham"
+        given-names: "Ian"
+    title: "Computing the Integrated Information of a Quantum Mechanism"
+    journal: "Entropy"
+    year: 2023
+    volume: 25
+    issue: 3
+    start: 449
+  - type: article
+    authors:
+      - family-names: "Tegmark"
+        given-names: "Max"
+    title: "Consciousness as a state of matter"
+    journal: "Chaos, Solitons & Fractals"
+    year: 2015
+    volume: 76
+    start: 238
+    end: 270

@@ -1,0 +1,40 @@
+[package]
+name = "experiments"
+version.workspace = true
+edition.workspace = true
+authors.workspace = true
+license.workspace = true
+repository.workspace = true
+description = "Experiments demonstrating that decoherence is necessary for integrated information"
+keywords = ["consciousness", "phi", "lindblad", "quantum", "decoherence"]
+categories = ["science", "simulation"]
+
+[dependencies]
+quantum-processor = { path = "../quantum-processor" }
+iit = { path = "../iit" }
+nalgebra = { workspace = true }
+ndarray = { workspace = true }
+num-complex = { workspace = true }
+rayon = { workspace = true }
+serde = { workspace = true }
+serde_json = { workspace = true }
+thiserror = { workspace = true }
+rand = { workspace = true }
+rand_distr = { workspace = true }
+log = { workspace = true }
+
+[dev-dependencies]
+approx = { workspace = true }
+criterion = { workspace = true }
+
+[[bin]]
+name = "noise_sweep"
+path = "src/noise_sweep.rs"
+
+[[bin]]
+name = "stress_test"
+path = "src/stress_test.rs"
+
+[[bin]]
+name = "validation"
+path = "src/validation.rs"

@@ -1,0 +1,36 @@
+[workspace]
+resolver = "2"
+members = [
+    "quantum-processor",
+    "iit",
+    "experiments",
+]
+
+[workspace.package]
+version = "1.0.0"
+edition = "2021"
+authors = ["Francisco Molina-Burgos <fmolina@avermex.com>"]
+license = "AGPL-3.0"
+repository = "https://github.com/Yatrogenesis/Noise-Consciousness-IIT"
+
+[workspace.dependencies]
+# Math
+nalgebra = { version = "0.32", features = ["serde-serialize"] }
+ndarray = { version = "0.15", features = ["serde"] }
+num-complex = { version = "0.4", features = ["serde"] }
+
+# Utilities
+rayon = "1.8"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+thiserror = "1.0"
+log = "0.4"
+rand = "0.8"
+rand_distr = "0.4"
+
+# LP solver for EMD
+minilp = "0.2"
+
+# Testing
+approx = "0.5"
+criterion = "0.5"
