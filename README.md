@@ -2,6 +2,7 @@
 
 **Evidence from Quantum Reservoir Computing**
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17932389.svg)](https://doi.org/10.5281/zenodo.17932389)
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 [![Rust](https://img.shields.io/badge/Rust-1.75+-orange.svg)](https://www.rust-lang.org/)
 
@@ -181,10 +182,13 @@ If you use this code or data, please cite:
   title = {Decoherence is Necessary for Integrated Information:
            Evidence from Quantum Reservoir Computing},
   year = {2026},
-  url = {https://github.com/Yatrogenesis/Decoherence-Necessary-Integrated-Information-AVRD_2601},
+  doi = {10.5281/zenodo.17932389},
+  url = {https://doi.org/10.5281/zenodo.17932389},
   license = {CC-BY-4.0}
 }
 ```
+
+**DOI**: [10.5281/zenodo.17932389](https://doi.org/10.5281/zenodo.17932389)
 
 ## License
 

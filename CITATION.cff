@@ -10,8 +10,13 @@ title: "Decoherence is Necessary for Integrated Information: Evidence from Quant
 version: 1.0.0
 date-released: 2026-01-29
 url: "https://github.com/Yatrogenesis/Decoherence-Necessary-Integrated-Information-AVRD_2601"
+doi: "10.5281/zenodo.17932389"
 license: CC-BY-4.0
 repository-code: "https://github.com/Yatrogenesis/Decoherence-Necessary-Integrated-Information-AVRD_2601"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.17932389"
+    description: "Zenodo archive"
 keywords:
   - integrated information theory
   - IIT
